@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://kr04kx34srtc"]
+
+[ext_resource type="Texture2D" uid="uid://31xp3fgfl88s" path="res://Assets/Player_Parts/Jaw.png" id="1_k7fha"]
+
+[node name="PlayerJaw" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_k7fha")

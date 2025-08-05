@@ -1,8 +1,21 @@
-[gd_scene load_steps=4 format=3 uid="uid://bxe6n3df8i10u"]
+[gd_scene load_steps=17 format=3 uid="uid://bxe6n3df8i10u"]
 
 [ext_resource type="Script" path="res://Scripts/level_01.gd" id="1_o7587"]
 [ext_resource type="Texture2D" uid="uid://dady3ei7klom2" path="res://Maps/Map_04/Layers/BG_1080x3000.png" id="2_jtojd"]
 [ext_resource type="PackedScene" uid="uid://bthc5nqb118ut" path="res://Scenes/Player.tscn" id="3_4eq2t"]
+[ext_resource type="PackedScene" uid="uid://dhd4i27yfsijt" path="res://Scenes/PlayerWeaponLeft.tscn" id="4_7uoms"]
+[ext_resource type="PackedScene" uid="uid://22dbqbffivod" path="res://Scenes/PlayerWeaponRight.tscn" id="5_d5ouf"]
+[ext_resource type="PackedScene" uid="uid://c7wysrjpcx8so" path="res://Scenes/PlayerWingLeft.tscn" id="6_twqcy"]
+[ext_resource type="PackedScene" uid="uid://j5q1eh3o2byw" path="res://Scenes/PlayerWingRight.tscn" id="7_xbm6h"]
+[ext_resource type="PackedScene" uid="uid://vf3rlbclaecp" path="res://Scenes/PlayerThrusterLeft.tscn" id="8_x1x0u"]
+[ext_resource type="PackedScene" uid="uid://dxnhqgxsb210n" path="res://Scenes/PlayerThrusterRight.tscn" id="9_qb0m0"]
+[ext_resource type="PackedScene" uid="uid://drakpwjknpflm" path="res://Scenes/PlayerEngineLeft.tscn" id="10_3x82c"]
+[ext_resource type="PackedScene" uid="uid://dv446cwyubadw" path="res://Scenes/PlayerEngineRight.tscn" id="11_5ng5s"]
+[ext_resource type="PackedScene" uid="uid://b0khenm2pu712" path="res://Scenes/PlayerSheildGeneratorLeft.tscn" id="12_6k17s"]
+[ext_resource type="PackedScene" uid="uid://dhsu01gwp6xkd" path="res://Scenes/PlayerSheildGeneratorRight.tscn" id="13_f44xr"]
+[ext_resource type="PackedScene" uid="uid://dvw5jph5w8wqb" path="res://Scenes/PlayerBody.tscn" id="14_qol3j"]
+[ext_resource type="PackedScene" uid="uid://btm0oia3up55e" path="res://Scenes/PlayerSkull.tscn" id="15_4e4mx"]
+[ext_resource type="PackedScene" uid="uid://kr04kx34srtc" path="res://Scenes/PlayerJaw.tscn" id="16_b1uaa"]
 
 [node name="Level_01" type="Node2D"]
 script = ExtResource("1_o7587")
@@ -17,5 +30,58 @@ expand_mode = 1
 [node name="PlayerSpaceShip" parent="." instance=ExtResource("3_4eq2t")]
 position = Vector2(529, 92)
 
+[node name="PlayerWeaponLeft" parent="PlayerSpaceShip" instance=ExtResource("4_7uoms")]
+
+[node name="PlayerWeaponRight" parent="PlayerSpaceShip" instance=ExtResource("5_d5ouf")]
+
+[node name="PlayerWingLeft" parent="PlayerSpaceShip" instance=ExtResource("6_twqcy")]
+
+[node name="PlayerWingRight" parent="PlayerSpaceShip" instance=ExtResource("7_xbm6h")]
+
+[node name="PlayerThrusterLeft" parent="PlayerSpaceShip" instance=ExtResource("8_x1x0u")]
+
+[node name="PlayerThrusterRight" parent="PlayerSpaceShip" instance=ExtResource("9_qb0m0")]
+
+[node name="PlayerEngineLeft" parent="PlayerSpaceShip" instance=ExtResource("10_3x82c")]
+
+[node name="PlayerEngineRight" parent="PlayerSpaceShip" instance=ExtResource("11_5ng5s")]
+
+[node name="PlayerSheildGeneratorLeft" parent="PlayerSpaceShip" instance=ExtResource("12_6k17s")]
+
+[node name="PlayerSheildGeneratorRight" parent="PlayerSpaceShip" instance=ExtResource("13_f44xr")]
+
+[node name="PlayerBody" parent="PlayerSpaceShip" instance=ExtResource("14_qol3j")]
+
+[node name="PlayerSkull" parent="PlayerSpaceShip" instance=ExtResource("15_4e4mx")]
+
+[node name="PlayerJaw" parent="PlayerSpaceShip" instance=ExtResource("16_b1uaa")]
+
 [node name="PlayerSpaceShip2" parent="." instance=ExtResource("3_4eq2t")]
 position = Vector2(533, 528)
+rotation = 3.14159
+
+[node name="PlayerWeaponLeft" parent="PlayerSpaceShip2" instance=ExtResource("4_7uoms")]
+
+[node name="PlayerWeaponRight" parent="PlayerSpaceShip2" instance=ExtResource("5_d5ouf")]
+
+[node name="PlayerWingLeft" parent="PlayerSpaceShip2" instance=ExtResource("6_twqcy")]
+
+[node name="PlayerWingRight" parent="PlayerSpaceShip2" instance=ExtResource("7_xbm6h")]
+
+[node name="PlayerThrusterLeft" parent="PlayerSpaceShip2" instance=ExtResource("8_x1x0u")]
+
+[node name="PlayerThrusterRight" parent="PlayerSpaceShip2" instance=ExtResource("9_qb0m0")]
+
+[node name="PlayerEngineLeft" parent="PlayerSpaceShip2" instance=ExtResource("10_3x82c")]
+
+[node name="PlayerEngineRight" parent="PlayerSpaceShip2" instance=ExtResource("11_5ng5s")]
+
+[node name="PlayerSheildGeneratorLeft" parent="PlayerSpaceShip2" instance=ExtResource("12_6k17s")]
+
+[node name="PlayerSheildGeneratorRight" parent="PlayerSpaceShip2" instance=ExtResource("13_f44xr")]
+
+[node name="PlayerBody" parent="PlayerSpaceShip2" instance=ExtResource("14_qol3j")]
+
+[node name="PlayerSkull" parent="PlayerSpaceShip2" instance=ExtResource("15_4e4mx")]
+
+[node name="PlayerJaw" parent="PlayerSpaceShip2" instance=ExtResource("16_b1uaa")]

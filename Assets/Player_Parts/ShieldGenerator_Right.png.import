@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0buow1vu2et"
-path="res://.godot/imported/Engine.png-9abb46d6f39428d2cff46f7b0bc4e575.ctex"
+uid="uid://bpf67soheseu0"
+path="res://.godot/imported/ShieldGenerator_Right.png-aa9e6e7dd54b032a05c7b03a37ddb0d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player_Parts/Engine.png"
-dest_files=["res://.godot/imported/Engine.png-9abb46d6f39428d2cff46f7b0bc4e575.ctex"]
+source_file="res://Assets/Player_Parts/ShieldGenerator_Right.png"
+dest_files=["res://.godot/imported/ShieldGenerator_Right.png-aa9e6e7dd54b032a05c7b03a37ddb0d8.ctex"]
 
 [params]
 

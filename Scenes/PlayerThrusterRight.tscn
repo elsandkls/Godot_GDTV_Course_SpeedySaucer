@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxnhqgxsb210n"]
+
+[ext_resource type="Texture2D" uid="uid://ddm07j5mdj7h4" path="res://Assets/Player_Parts/Thruster_Right.png" id="1_rc475"]
+
+[node name="PlayerThrusterRight" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rc475")

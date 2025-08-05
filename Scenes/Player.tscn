@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=3 uid="uid://bthc5nqb118ut"]
+[gd_scene load_steps=94 format=3 uid="uid://bthc5nqb118ut"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_ohtd2"]
 [ext_resource type="Texture2D" uid="uid://b6quanxm1ftb5" path="res://Assets/Player_Sprites_1/Attack_01_000.png" id="1_toyfu"]
@@ -397,6 +397,14 @@ height = 44.0
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ucorg"]
 height = 50.0
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_b8awm"]
+radius = 16.0
+height = 90.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ikv12"]
+radius = 15.0
+height = 90.0
+
 [node name="PlayerSpaceShip" type="RigidBody2D"]
 gravity_scale = 0.0
 script = ExtResource("1_ohtd2")
@@ -440,3 +448,11 @@ shape = SubResource("CapsuleShape2D_iibu6")
 [node name="CollisionRightThruster" type="CollisionShape2D" parent="."]
 position = Vector2(29, -55)
 shape = SubResource("CapsuleShape2D_ucorg")
+
+[node name="CollisionLeftSheildGenerator" type="CollisionShape2D" parent="."]
+position = Vector2(-42, -4)
+shape = SubResource("CapsuleShape2D_b8awm")
+
+[node name="CollisionRightSheildGenerator" type="CollisionShape2D" parent="."]
+position = Vector2(42, -2)
+shape = SubResource("CapsuleShape2D_ikv12")

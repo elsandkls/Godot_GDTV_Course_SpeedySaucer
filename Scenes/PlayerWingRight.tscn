@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://j5q1eh3o2byw"]
+
+[ext_resource type="Texture2D" uid="uid://dqhugpr58mbt3" path="res://Assets/Player_Parts/Wing_Right.png" id="1_cmc7h"]
+
+[node name="PlayerWingRight" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_cmc7h")

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://btm0oia3up55e"]
+
+[ext_resource type="Texture2D" uid="uid://c5yhbumbojvyk" path="res://Assets/Player_Parts/Skull.png" id="1_hls8y"]
+
+[node name="PlayerSkull" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hls8y")

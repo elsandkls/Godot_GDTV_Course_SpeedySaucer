@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhd4i27yfsijt"]
+
+[ext_resource type="Script" path="res://Scripts/player_weapons.gd" id="1_u2ika"]
+[ext_resource type="Texture2D" uid="uid://pke10hvr8b4" path="res://Assets/Player_Parts/Canon_L.png" id="2_habxj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hr2uy"]
+
+[node name="PlayerWeaponLeft" type="Node2D"]
+script = ExtResource("1_u2ika")
+
+[node name="AnimationSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hr2uy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_habxj")
