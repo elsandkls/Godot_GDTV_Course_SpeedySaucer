@@ -31,57 +31,109 @@ expand_mode = 1
 position = Vector2(529, 92)
 
 [node name="PlayerWeaponLeft" parent="PlayerSpaceShip" instance=ExtResource("4_7uoms")]
+visible = false
+position = Vector2(-42, 48)
 
 [node name="PlayerWeaponRight" parent="PlayerSpaceShip" instance=ExtResource("5_d5ouf")]
+visible = false
+position = Vector2(42, 47)
 
 [node name="PlayerWingLeft" parent="PlayerSpaceShip" instance=ExtResource("6_twqcy")]
+visible = false
+position = Vector2(-116, -11)
 
 [node name="PlayerWingRight" parent="PlayerSpaceShip" instance=ExtResource("7_xbm6h")]
+visible = false
+position = Vector2(115, -11)
 
 [node name="PlayerThrusterLeft" parent="PlayerSpaceShip" instance=ExtResource("8_x1x0u")]
+visible = false
+position = Vector2(-26, -51)
 
 [node name="PlayerThrusterRight" parent="PlayerSpaceShip" instance=ExtResource("9_qb0m0")]
+visible = false
+position = Vector2(27, -52)
 
 [node name="PlayerEngineLeft" parent="PlayerSpaceShip" instance=ExtResource("10_3x82c")]
+visible = false
+position = Vector2(-76, 12)
 
 [node name="PlayerEngineRight" parent="PlayerSpaceShip" instance=ExtResource("11_5ng5s")]
+visible = false
+position = Vector2(76, 12)
 
 [node name="PlayerSheildGeneratorLeft" parent="PlayerSpaceShip" instance=ExtResource("12_6k17s")]
+visible = false
+position = Vector2(-43, -3)
 
 [node name="PlayerSheildGeneratorRight" parent="PlayerSpaceShip" instance=ExtResource("13_f44xr")]
+visible = false
+position = Vector2(40, -5)
 
 [node name="PlayerBody" parent="PlayerSpaceShip" instance=ExtResource("14_qol3j")]
-
-[node name="PlayerSkull" parent="PlayerSpaceShip" instance=ExtResource("15_4e4mx")]
+visible = false
+position = Vector2(0, -11)
 
 [node name="PlayerJaw" parent="PlayerSpaceShip" instance=ExtResource("16_b1uaa")]
+visible = false
+position = Vector2(0, 66)
+
+[node name="PlayerSkull" parent="PlayerSpaceShip" instance=ExtResource("15_4e4mx")]
+visible = false
+position = Vector2(0, 51)
 
 [node name="PlayerSpaceShip2" parent="." instance=ExtResource("3_4eq2t")]
 position = Vector2(533, 528)
 rotation = 3.14159
 
 [node name="PlayerWeaponLeft" parent="PlayerSpaceShip2" instance=ExtResource("4_7uoms")]
+visible = false
+position = Vector2(-42.0001, 47.9999)
 
 [node name="PlayerWeaponRight" parent="PlayerSpaceShip2" instance=ExtResource("5_d5ouf")]
+visible = false
+position = Vector2(41.9999, 48.0001)
 
 [node name="PlayerWingLeft" parent="PlayerSpaceShip2" instance=ExtResource("6_twqcy")]
+visible = false
+position = Vector2(-117, -8.0003)
 
 [node name="PlayerWingRight" parent="PlayerSpaceShip2" instance=ExtResource("7_xbm6h")]
+visible = false
+position = Vector2(116, -8.99971)
 
 [node name="PlayerThrusterLeft" parent="PlayerSpaceShip2" instance=ExtResource("8_x1x0u")]
+visible = false
+position = Vector2(-26.9999, -51.0001)
 
 [node name="PlayerThrusterRight" parent="PlayerSpaceShip2" instance=ExtResource("9_qb0m0")]
+visible = false
+position = Vector2(27.0001, -51.9999)
 
 [node name="PlayerEngineLeft" parent="PlayerSpaceShip2" instance=ExtResource("10_3x82c")]
+visible = false
+position = Vector2(-77, 12.9998)
 
 [node name="PlayerEngineRight" parent="PlayerSpaceShip2" instance=ExtResource("11_5ng5s")]
+visible = false
+position = Vector2(75, 12.0002)
 
 [node name="PlayerSheildGeneratorLeft" parent="PlayerSpaceShip2" instance=ExtResource("12_6k17s")]
+visible = false
+position = Vector2(-39, -4.0001)
 
 [node name="PlayerSheildGeneratorRight" parent="PlayerSpaceShip2" instance=ExtResource("13_f44xr")]
+visible = false
+position = Vector2(42, -1.99989)
 
 [node name="PlayerBody" parent="PlayerSpaceShip2" instance=ExtResource("14_qol3j")]
-
-[node name="PlayerSkull" parent="PlayerSpaceShip2" instance=ExtResource("15_4e4mx")]
+visible = false
+position = Vector2(2.7887e-05, -11)
 
 [node name="PlayerJaw" parent="PlayerSpaceShip2" instance=ExtResource("16_b1uaa")]
+visible = false
+position = Vector2(-1.00017, 67)
+
+[node name="PlayerSkull" parent="PlayerSpaceShip2" instance=ExtResource("15_4e4mx")]
+visible = false
+position = Vector2(-1.0001, 50)
