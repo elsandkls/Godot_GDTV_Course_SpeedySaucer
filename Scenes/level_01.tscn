@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxe6n3df8i10u"]
+
+[ext_resource type="Script" path="res://Scripts/level_01.gd" id="1_o7587"]
+[ext_resource type="Texture2D" uid="uid://dady3ei7klom2" path="res://Maps/Map_04/Layers/BG_1080x3000.png" id="2_jtojd"]
+[ext_resource type="PackedScene" uid="uid://bthc5nqb118ut" path="res://Scenes/Player.tscn" id="3_4eq2t"]
+
+[node name="Level_01" type="Node2D"]
+script = ExtResource("1_o7587")
+
+[node name="Background" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(1080, 3000)
+offset_right = 1085.0
+offset_bottom = 3000.0
+texture = ExtResource("2_jtojd")
+expand_mode = 1
+
+[node name="PlayerSpaceShip" parent="." instance=ExtResource("3_4eq2t")]
+position = Vector2(529, 92)
+
+[node name="PlayerSpaceShip2" parent="." instance=ExtResource("3_4eq2t")]
+position = Vector2(533, 528)
